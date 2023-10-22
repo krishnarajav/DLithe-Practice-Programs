@@ -6,7 +6,7 @@ int main()
     int date, month, year; 
     printf("Enter date as DD MM YYYY:");
     scanf("%d%d%d", &date, &month, &year);
-    if((month == 1 || month == 3 || month == 5 || month == 7 || month == 08 || month == 10 || month == 12) && (date >= 1 && date <=31)) //Check for Jan/Mar/May/Jul/Aug/Oct/Dec
+    if((month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) && (date >= 1 && date <=31)) //Check for Jan/Mar/May/Jul/Aug/Oct/Dec
     {
         printf("Given date is valid\n");
     }
